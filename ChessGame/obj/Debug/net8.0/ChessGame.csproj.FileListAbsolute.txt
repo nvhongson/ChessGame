@@ -1,0 +1,14 @@
+C:\Users\nvhon\Desktop\Chess\ChessGame\bin\Debug\net8.0\ChessGame.exe
+C:\Users\nvhon\Desktop\Chess\ChessGame\bin\Debug\net8.0\ChessGame.deps.json
+C:\Users\nvhon\Desktop\Chess\ChessGame\bin\Debug\net8.0\ChessGame.runtimeconfig.json
+C:\Users\nvhon\Desktop\Chess\ChessGame\bin\Debug\net8.0\ChessGame.dll
+C:\Users\nvhon\Desktop\Chess\ChessGame\bin\Debug\net8.0\ChessGame.pdb
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.AssemblyInfoInputs.cache
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.AssemblyInfo.cs
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.csproj.CoreCompileInputs.cache
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.dll
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\refint\ChessGame.dll
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.pdb
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ChessGame.genruntimeconfig.cache
+C:\Users\nvhon\Desktop\Chess\ChessGame\obj\Debug\net8.0\ref\ChessGame.dll
