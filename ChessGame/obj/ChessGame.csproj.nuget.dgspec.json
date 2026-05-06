@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nvhon\\Desktop\\Chess\\ChessGame\\ChessGame.csproj": {}
+    "C:\\Users\\nvhon\\OneDrive\\Desktop\\Project\\ChessGame\\ChessGame\\ChessGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nvhon\\Desktop\\Chess\\ChessGame\\ChessGame.csproj": {
+    "C:\\Users\\nvhon\\OneDrive\\Desktop\\Project\\ChessGame\\ChessGame\\ChessGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nvhon\\Desktop\\Chess\\ChessGame\\ChessGame.csproj",
+        "projectUniqueName": "C:\\Users\\nvhon\\OneDrive\\Desktop\\Project\\ChessGame\\ChessGame\\ChessGame.csproj",
         "projectName": "ChessGame",
-        "projectPath": "C:\\Users\\nvhon\\Desktop\\Chess\\ChessGame\\ChessGame.csproj",
+        "projectPath": "C:\\Users\\nvhon\\OneDrive\\Desktop\\Project\\ChessGame\\ChessGame\\ChessGame.csproj",
         "packagesPath": "C:\\Users\\nvhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nvhon\\Desktop\\Chess\\ChessGame\\obj\\",
+        "outputPath": "C:\\Users\\nvhon\\OneDrive\\Desktop\\Project\\ChessGame\\ChessGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nvhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nvhon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -50,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

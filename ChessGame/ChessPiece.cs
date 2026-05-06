@@ -1,4 +1,5 @@
-﻿public enum ChessPieceType
+// Lists every type of chess piece the game can place on the board.
+public enum ChessPieceType
 {
     Pawn,
     Rook,
@@ -8,6 +9,7 @@
     King
 }
 
+// Identifies which player owns a piece.
 public enum ChessPieceSide
 {
     White,
@@ -16,24 +18,37 @@ public enum ChessPieceSide
 
 public class ChessPiece
 {
+    // Type controls movement rules and display symbol.
     public ChessPieceType Type { get; set; }
+
+    // Side controls turn ownership and whether another piece can be captured.
     public ChessPieceSide Side { get; set; }
-    public bool HasMoved { get; set; } 
+
+    // Movement flags are useful for special rules such as castling or first
+    // pawn movement. The current game updates them when a piece moves.
+    public bool HasMoved { get; set; }
     public bool FirstMove { get; set; }
+
     public ChessPiece(ChessPieceType type, ChessPieceSide side)
     {
+        // Store the piece identity when the board creates each piece.
         Type = type;
         Side = side;
         HasMoved = false;
-        FirstMove = true; 
+        FirstMove = true;
     }
-    public virtual bool IsValidMove(ChessPiece[,] board, int sourceRow, int sourceCol, int destRow, int destCol)
+
+    public virtual bool IsValidMove(ChessPiece?[,] board, int sourceRow, int sourceCol, int destRow, int destCol)
     {
-        // Implement logic to validate move for each piece type
-        return true;
+        // Delegate movement validation to PieceLogic so this class stays focused
+        // on representing a piece's data.
+        PieceLogic pieceLogic = new PieceLogic();
+        return pieceLogic.IsValidMove(Type, board, sourceRow, sourceCol, destRow, destCol);
     }
+
     public override string ToString()
     {
+        // Uppercase symbols are white pieces; lowercase symbols are black pieces.
         switch (Type)
         {
             case ChessPieceType.Pawn: return Side == ChessPieceSide.White ? "P" : "p";
